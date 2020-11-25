@@ -6,8 +6,7 @@
   "scripts": {
     "build": "tsc --build",
     "test": "jest",
-    "lint": "eslint --cache --ext .ts,.tsx,.js,.jsx ./src",
-    "prepublishOnly": "npm run lint && npm run test && npm run build  && np --no-cleanup --yolo --no-publish --any-branch"
+    "lint": "eslint --cache --ext .ts,.tsx,.js,.jsx ./src"
   },
   "author": "",
   "license": "ISC",
